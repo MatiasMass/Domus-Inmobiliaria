@@ -1,0 +1,42 @@
+
+
+main section.property-images{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px)  {
+    flex-wrap: ;
+}
+
+@media screen and (min-width: 1200px)  {
+
+    main section.property-content .card{
+        transition: transform .2s;
+    }
+    main section.property-content .card:hover {
+        box-shadow: 0 5px 15px rgba(0,0,0,.1);
+        transform: scale(1.05);
+    }
+}
+
+main header .property-info{
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+main header p{
+    margin: 0;
+}
+
+.property-direction-container{
+    padding: 20px;
+}
+
+.property-direction{
+    padding: 20px 30px;
+}
+
+main section.property-content .card-container{
+    margin-bottom: 15px;
+}

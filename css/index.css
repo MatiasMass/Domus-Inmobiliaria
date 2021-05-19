@@ -1,0 +1,105 @@
+body{
+  background: #F1F1F1;
+  font-size: 16px;
+}
+
+  @media screen and (max-width: 768px)  {
+    body {
+      font-size: 1.2rem;
+    }
+    h1.title {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media screen and (max-width: 992px)  {
+    body {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media screen and (max-width: 1200px)  {
+    body {
+      font-size: 1.6rem;
+    }
+
+  }
+
+
+
+.main{
+  margin-top: 50px;
+}
+
+nav ul li{
+  padding: 20px;
+}
+
+:root {
+  --mainColor: #a09f9e;
+}
+
+nav ul li a {
+  background:
+    linear-gradient(
+      to bottom, var(--mainColor) 0%,
+      var(--mainColor) 100%
+    );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+nav ul li a:hover {
+  background-size: 4px 50px;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+
+.footer-container {
+  padding: 30px 60px;
+}
+
+footer .footer-section h5{
+  font-size: 1.25rem;
+}
+
+footer .footer-section{
+  font-size: 1rem;
+}
+
+footer .footer-section p a{
+  display: block;
+  padding: 10px;
+
+}
+
+footer .footer-section p a:hover{
+  background: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+}
+
+footer .footer-section nav a{
+  display: block;
+  padding: 10px;
+  color: #fff;
+}
+
+footer .footer-section nav a:hover{
+  background: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+}
+
+footer .copy-right{
+  font-size: 1rem;
+}

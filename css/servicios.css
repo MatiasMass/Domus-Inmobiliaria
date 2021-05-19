@@ -1,0 +1,38 @@
+
+@media screen and (min-width: 1200px)  {
+
+    section .post_property{
+        transition: transform .2s;
+    }
+
+    section .post_property:hover {
+        box-shadow: 0 5px 15px rgba(0,0,0,.1);
+        transform: scale(1.05);
+    }
+}
+
+
+
+
+
+section .article_property{
+    margin-bottom: 30px;
+}  
+
+section .article_property a{
+    text-decoration: none;
+}   
+
+section .contact{
+    padding: 0 10%;
+}
+
+section .contact-form{
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+
+section .media-contact{
+    padding-top: 20px;
+}
