@@ -2,7 +2,7 @@
 
 I built this project for a subject calls Diseño de Sistemas. This projects was made with HTML and CSS Bootstrap.
 
-You can visit it at: [https://matiasmass.github.io/Domus-Inmobiliaria/index.html](https://linux.com)
+You can visit it at: [Link](https://matiasmass.github.io/Domus-Inmobiliaria/index.html)
 
 Images:
 <br>
